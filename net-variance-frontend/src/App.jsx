@@ -18,7 +18,7 @@ function App() {
 
     setLoading(true);
     try {
-      const response = await fetch("net-variance-backend-production.up.railway.app", {
+      const response = await fetch("https://net-variance-backend-production.up.railway.app/upload", {
         method: "POST",
         body: formData,
       });
